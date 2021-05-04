@@ -99,6 +99,20 @@ class _CameraCameraPreviewState extends State<CameraCameraPreview> {
                         ),
                       ),
                     ),
+                    Positioned(
+                      top: 48.0,
+                      right: 12.0,
+                      child: CircleAvatar(
+                        radius: 20,
+                        backgroundColor: Colors.black.withOpacity(0.6),
+                        child: IconButton(
+                          icon: Icon(Icons.close, size: 24, color: Colors.white),
+                          onPressed: () {
+                            Navigator.pop(context);
+                          },
+                        ),
+                      ),
+                    ),
                   ],
                 ),
               ),
