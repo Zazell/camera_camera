@@ -1,6 +1,6 @@
 name: camera_camera
 description: The easy plugin camera for your project, platforms Android and iOS.
-version: 2.0.3
+version: 2.0.3+1
 repository: https://github.com/Zazell/camera_camera
 
 environment:
@@ -9,7 +9,7 @@ environment:
 dependencies:
   camera: ^0.8.1+2
 #  font_awesome_flutter: ^9.0.0-nullsafety
-  rxdart: ^0.27.1
+  rxdart: ^0.26.0
   flutter:
     sdk: flutter
 
