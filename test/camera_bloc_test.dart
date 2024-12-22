@@ -1,4 +1,3 @@
-import 'package:camera/camera.dart';
 import 'package:camera_camera/camera_camera.dart';
 import 'package:camera_camera/src/core/camera_bloc.dart';
 import 'package:camera_camera/src/core/camera_service.dart';

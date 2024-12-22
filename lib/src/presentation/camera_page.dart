@@ -101,7 +101,7 @@ class _CameraCameraState extends State<CameraCamera> {
                             },
                             child: CircleAvatar(
                               radius: 20,
-                              backgroundColor: Colors.black.withOpacity(0.6),
+                              backgroundColor: Colors.black.withValues(alpha: 0.6),
                               child: Icon(
                                 Platform.isAndroid
                                     ? Icons.flip_camera_android

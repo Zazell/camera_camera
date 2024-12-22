@@ -49,7 +49,7 @@ class _CameraCameraPreviewState extends State<CameraCameraPreview> {
                         right: 0.0,
                         child: CircleAvatar(
                           radius: 20,
-                          backgroundColor: Colors.black.withOpacity(0.6),
+                          backgroundColor: Colors.black.withValues(alpha:0.6),
                           child: IconButton(
                             icon: Center(
                               child: Text(
@@ -71,7 +71,7 @@ class _CameraCameraPreviewState extends State<CameraCameraPreview> {
                           padding: const EdgeInsets.all(32.0),
                           child: CircleAvatar(
                             radius: 20,
-                            backgroundColor: Colors.black.withOpacity(0.6),
+                            backgroundColor: Colors.black.withValues(alpha:0.6),
                             child: IconButton(
                               onPressed: () {
                                 widget.controller.changeFlashMode();
@@ -104,7 +104,7 @@ class _CameraCameraPreviewState extends State<CameraCameraPreview> {
                       right: 12.0,
                       child: CircleAvatar(
                         radius: 20,
-                        backgroundColor: Colors.black.withOpacity(0.6),
+                        backgroundColor: Colors.black.withValues(alpha:0.6),
                         child: IconButton(
                           icon: Icon(Icons.close, size: 24, color: Colors.white),
                           onPressed: () {
